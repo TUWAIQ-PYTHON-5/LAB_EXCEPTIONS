@@ -3,7 +3,7 @@
 def additoin(x, y):
           x = 10
           y = 20
-          print("Addition:", x + y)
+          print("Addition:", x + b)
 
 
 try :
@@ -16,6 +16,10 @@ except NameError as error :
 
 except :
     
-      print (" Addition :" , additoin , "the operation is successful")
+     print ( "The Name is not defind ")
+
+else :
+    
+      print ("the operation is successful")
   
 
