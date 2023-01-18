@@ -1,11 +1,12 @@
 def additoin(x, y):
     x = 10
     y = 20
-    try:
-        print("Addition:", x + b)
-    except NameError:
-        print("the name of the variable is wrong")
-    else:
-        print("the operation is successful")
+    print("Addition:", x + b)
+    
 
-additoin(10, 20)
+try:
+   additoin(10, 20)
+except NameError:
+    print("the name of the variable is wrong")
+else:
+    print("the operation is successful")
