@@ -1,13 +1,14 @@
 
-try:
-    def additoin(x, y):
-       x = 10
-       y = 20
-       print("Addition:", x + b)
-    additoin(10, 20)
 
+def additoin(x, y):
+    x = 10
+    y = 20
+    print("Addition:", x + b)
+
+try:
+    additoin(10, 20)
 except NameError :
-    print("plese enter the name b: ")
+    print("plese define  b or enter y ")
     
 except :
     print ("There was an error" )
